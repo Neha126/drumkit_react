@@ -1,0 +1,38 @@
+.RecordingList {
+  display: flex;
+  flex-direction: column;
+}
+.RecordingList p {
+  background-color: #fff;
+  height: 30px;
+  width: 150px;
+  font-weight: bold;
+  /* padding: 5px; */
+  padding-top: 10px;
+  margin-left: 16px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+ul li {
+  list-style: none;
+  background-color: #fff;
+  margin-bottom: 10px;
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  margin-right: 30px;
+}
+li h4 {
+  margin-left: 40px;
+}
+.right {
+  display: flex;
+  padding-right: 16px;
+  align-items: center;
+}

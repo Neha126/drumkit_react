@@ -3,6 +3,7 @@ import drumPlayer from "../Drum/DrumPlayer";
 import "./RecordingList.scss";
 export default function RecordingList() {
   const data = JSON.parse(localStorage.getItem("saved_recordings")) || [];
+
   const handlePlay = (sequence, speed) => {
     drumPlayer(sequence, speed);
   };
@@ -17,6 +18,12 @@ export default function RecordingList() {
               <h4>{item.type}</h4>
             </div>
             <div className="right">
+              <button
+                className="primaryBtn"
+                onClick={() => handlePlay(item.keySequence, 300)}
+              >
+                PLAY 0.5X
+              </button>
               <button
                 className="primaryBtn"
                 onClick={() => handlePlay(item.keySequence, 200)}

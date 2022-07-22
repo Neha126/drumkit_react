@@ -9,36 +9,6 @@ h1 {
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #da0463;
 }
-/*
-.w {
-   background-image: url("components/images/tom1.png");
-}
-
-.a {
-  background-image: url("components/images/tom2.png");
-}
-
-.s {
-  background-image: url("components/images/tom3.png");
-
-}
-
-.d {
-  background-image: url("components/images/tom4.png");
-}
-
-.j {
-  background-image: url("components/images/snare.png");
-}
-
-.k {
-  background-image: url("components/images/crash.png");
-}
-
-.l {
-  background-image: url("components/images/kick.png");
-} */
-
 .set {
   margin: 2rem auto 1rem;
 }
